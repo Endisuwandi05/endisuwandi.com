@@ -1,0 +1,28 @@
+body {
+  background-color: #0f172a;
+  color: #cbd5e1;
+  display: flex;
+  justify-content: center; /* tengah secara horizontal */
+  align-items: center;
+  /* font-family: sans-serif; */
+}
+
+.container {
+  height: 1440px;
+  width: 1410;
+  margin-left: 140px;
+  justify-content: space-between;
+}
+
+span {
+  font-size: small;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 10px; /* jarak antar item (opsional) */
+  align-items: center;
+}

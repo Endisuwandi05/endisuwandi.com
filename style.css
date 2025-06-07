@@ -154,12 +154,14 @@ body {
   padding-left: 550px;
   padding-bottom: 12px;
   list-style-type: none;
-  gap: 18px;
 
-  /* align-items: flex-end; */
+  margin-top: -20px;
+  margin-left: 0px;
 }
-.navigasi ul {
+.navigasi ul li {
+  margin-right: 50px;
 }
+
 .navigasi li {
   display: inline-block;
   text-align: right;
@@ -178,8 +180,8 @@ body {
 /*  Style bagian gambar */
 .image .foto {
   border-radius: 100%;
-  margin-bottom: 20px;
-  /* text-align: center; */
+  margin-bottom: 25px;
+  margin-top: 20px;
 }
 
 .content p {
@@ -248,8 +250,7 @@ body {
 .btn-linkedin {
   width: 81.92px;
   height: 27.76px;
-  background-color: aqua;
-  margin: 2000px;
+  margin: 17px;
 }
 .main3 {
   background-color: #0f172a;

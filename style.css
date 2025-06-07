@@ -259,3 +259,9 @@ body {
   margin: auto;
   border-radius: 20px;
 }
+
+.main3 img {
+  width: 400px;
+  margin-left: 200px;
+  margin-top: 55px;
+}

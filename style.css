@@ -251,6 +251,11 @@ body {
   width: 81.92px;
   height: 27.76px;
   margin: 17px;
+  text-decoration: none;
+}
+
+.btn-Telegram {
+  text-decoration: none;
 }
 .main3 {
   background-color: #0f172a;

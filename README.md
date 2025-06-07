@@ -46,5 +46,5 @@ Saya bercita-cita menjadi bagian dari tim **engineering yang berdampak besar**, 
 
 ## 📫 Kontak Saya
 
-- Email: endisuwandi@email.com
-- LinkedIn: [linkedin.com/in/endi-suwandi](https://linkedin.com/in/en)
+- Email: endisuwandi64@email.com
+- LinkedIn: [LinkedIn - Endi Suwandi](https://www.linkedin.com/in/endi-suwandi-b622a327a/)

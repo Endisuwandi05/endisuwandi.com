@@ -206,11 +206,10 @@ main {
   color: #cbd5e1;
 }
 
-<<<<<<< HEAD
 .about {
   margin: 100px auto 0 auto;
   width: 500px;
-=======
+}
 /* ========================================= */
 /* STYLE SECTION CONNECT                 */
 /* ========================================= */
@@ -220,7 +219,6 @@ main {
   padding: 25px;
   box-sizing: border-box;
   margin-top: 40px;
->>>>>>> 0929cb4d928c9d0eceb24da6a2cee5873e2db0a4
 }
 
 .connect h2 {

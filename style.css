@@ -269,3 +269,13 @@ footer {
 footer .container {
   text-align: center;
 }
+
+/* 
+============================
+CSS FOR PROJECTS
+============================
+*/
+
+.projects-grid {
+  margin: auto;
+}

@@ -242,6 +242,7 @@ main {
 /* ========================================= */
 .connect {
   background-color: #1e293b;
+  height: 340px;
   border-radius: 20px;
   padding: 40px;
   box-sizing: border-box;

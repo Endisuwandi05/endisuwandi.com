@@ -213,7 +213,7 @@ main {
   height: 150px; /* Menentukan tinggi gambar */
   border-radius: 50%; /* Membuat gambar menjadi bulat sempurna */
   margin-bottom: 25px;
-  border: 4px solid #334155; /* Menambah border pada foto */
+  /* border: 4px solid #334155; Menambah border pada foto */
 }
 
 .content h2 {

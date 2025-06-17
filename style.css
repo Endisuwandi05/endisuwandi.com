@@ -213,7 +213,7 @@ main {
   height: 150px; /* Menentukan tinggi gambar */
   border-radius: 50%; /* Membuat gambar menjadi bulat sempurna */
   margin-bottom: 25px;
-  border: 4px solid #334155; /* Menambah border pada foto */
+  /* border: 4px solid #334155; Menambah border pada foto */
 }
 
 .content h2 {
@@ -242,6 +242,7 @@ main {
 /* ========================================= */
 .connect {
   background-color: #1e293b;
+  height: 340px;
   border-radius: 20px;
   padding: 40px;
   box-sizing: border-box;

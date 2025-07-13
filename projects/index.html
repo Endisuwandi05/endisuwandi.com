@@ -4,129 +4,134 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects - Endi Suwandi</title>
-    <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    /> -->
   </head>
-  <body>
-    <header>
-      <div class="container">
-        <nav class="navbar">
-          <a href="../index.html">
-            <h1>Endi Suwandi <span>- Full stack web developer</span></h1>
-          </a>
-          <ul class="navigation">
-            <!-- <li><a href="../index.html">Home</a></li>
-            <li><a href="../about.html">About</a></li>
-            <li><a href="../projects/index.html">Projects</a></li> -->
-
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/projects">Projects</a></li>
-          </ul>
-        </nav>
+  <body class="bg-white text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="bg-gray-100 py-6 shadow-md">
+      <div
+        class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center"
+      >
+        <a href="/" class="text-center md:text-left">
+          <h1 class="text-2xl font-bold text-gray-800">
+            Endi Suwandi
+            <span class="text-sm font-normal block md:inline text-gray-500">
+              - Full Stack Web Developer
+            </span>
+          </h1>
+        </a>
+        <ul
+          class="flex flex-col md:flex-row gap-4 md:gap-8 mt-4 md:mt-0 text-base"
+        >
+          <li><a href="/" class="hover:text-slate-400">Home</a></li>
+          <li><a href="/about" class="hover:text-slate-400">About</a></li>
+          <li><a href="/projects" class="hover:text-slate-400">Projects</a></li>
+        </ul>
       </div>
     </header>
 
-    <main>
-      <div class="container">
-        <div class="projects-header">
-          <h1>My Projects</h1>
-          <p>
-            A collection of projects I've worked on to practice and showcase my
-            skills.
-          </p>
+    <!-- Main Projects Section -->
+    <main class="container mx-auto px-4 py-8">
+      <div class="text-center mb-12">
+        <h1 class="text-3xl font-bold">My Projects</h1>
+        <p class="text-gray-600 mt-2">
+          A collection of projects I've worked on to practice and showcase my
+          skills.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project Card 1 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <img
+            src="/assets/project-01.avif"
+            alt="Project 1"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Project Title 1</h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              minus tempore voluptate ducimus officiis, aliquid veniam soluta
+              amet! Fugit rem eligendi ipsa pariatur aspernatur magnam ex fuga
+              quae vitae quia?
+            </p>
+            <div class="flex flex-wrap gap-2 mt-3 text-xs">
+              <span class="bg-gray-200 px-2 py-1 rounded">HTML</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">CSS</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">JavaScript</span>
+            </div>
+            <div class="flex justify-between mt-4 text-sm text-blue-600">
+              <a href="#" class="hover:underline">Live Demo</a>
+              <a href="#" class="hover:underline">GitHub Repo</a>
+            </div>
+          </div>
         </div>
 
-        <div class="projects-grid">
-          <div class="project-card">
-            <img
-              src="/assets/project-01.avif"
-              alt="Gambar Proyek 1"
-              class="project-image"
-            />
-            <div class="project-content">
-              <h3 class="project-title">Project Title 1</h3>
-              <p class="project-description">
-                A brief description of the project, its purpose, and the main
-                challenges that were overcome during development.
-              </p>
-              <div class="project-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </div>
-              <div class="project-links">
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                  >Live Demo</a
-                >
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                  >GitHub Repo</a
-                >
-              </div>
+        <!-- Project Card 2 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <img
+            src="/assets/project-02.avif"
+            alt="Project 2"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Project Title 2</h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              minus tempore voluptate ducimus officiis, aliquid veniam soluta
+              amet! Fugit rem eligendi ipsa pariatur aspernatur magnam ex fuga
+              quae vitae quia?
+            </p>
+            <div class="flex flex-wrap gap-2 mt-3 text-xs">
+              <span class="bg-gray-200 px-2 py-1 rounded">React</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">Node.js</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">MongoDB</span>
+            </div>
+            <div class="flex justify-between mt-4 text-sm text-blue-600">
+              <a href="#" class="hover:underline">Live Demo</a>
+              <a href="#" class="hover:underline">GitHub Repo</a>
             </div>
           </div>
+        </div>
 
-          <div class="project-card">
-            <img
-              src="/assets/project-02.avif"
-              alt="Gambar Proyek 2"
-              class="project-image"
-            />
-            <div class="project-content">
-              <h3 class="project-title">Project Title 2</h3>
-              <p class="project-description">
-                A brief description of the project, its purpose, and the main
-                challenges that were overcome during development.
-              </p>
-              <div class="project-tags">
-                <span>React</span>
-                <span>Node.js</span>
-                <span>MongoDB</span>
-              </div>
-              <div class="project-links">
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                  >Live Demo</a
-                >
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                  >GitHub Repo</a
-                >
-              </div>
+        <!-- Project Card 3 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <img
+            src="/assets/project-03.avif"
+            alt="Project 3"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Project Title 3</h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              minus tempore voluptate ducimus officiis, aliquid veniam soluta
+              amet! Fugit rem eligendi ipsa pariatur aspernatur magnam ex fuga
+              quae vitae quia?
+            </p>
+            <div class="flex flex-wrap gap-2 mt-3 text-xs">
+              <span class="bg-gray-200 px-2 py-1 rounded">Python</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">Flask</span>
+              <span class="bg-gray-200 px-2 py-1 rounded">PostgreSQL</span>
             </div>
-          </div>
-
-          <div class="project-card">
-            <img
-              src="/assets/project-03.avif"
-              alt="Gambar Proyek 3"
-              class="project-image"
-            />
-            <div class="project-content">
-              <h3 class="project-title">Project Title 3</h3>
-              <p class="project-description">
-                A brief description of the project, its purpose, and the main
-                challenges that were overcome during development.
-              </p>
-              <div class="project-tags">
-                <span>Python</span>
-                <span>Flask</span>
-                <span>PostgreSQL</span>
-              </div>
-              <div class="project-links">
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                  >Live Demo</a
-                >
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                  >GitHub Repo</a
-                >
-              </div>
+            <div class="flex justify-between mt-4 text-sm text-blue-600">
+              <a href="#" class="hover:underline">Live Demo</a>
+              <a href="#" class="hover:underline">GitHub Repo</a>
             </div>
           </div>
         </div>
       </div>
     </main>
 
-    <footer>
-      <div class="container">
-        <p>&copy; 2025 Endi Suwandi</p>
+    <!-- Footer -->
+    <footer class="bg-gray-200 py-4 mt-12">
+      <div class="container mx-auto px-4 text-center text-sm text-gray-600">
+        &copy; 2025 Endi Suwandi
       </div>
     </footer>
   </body>

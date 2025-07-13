@@ -4,105 +4,201 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Endi Suwandi - Full Stack Web Developer</title>
-    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <!-- Header: Sekarang membentang penuh, dengan container di dalamnya -->
-    <header>
-      <div class="container">
-        <!-- Hanya ada satu navbar, di dalam header -->
-        <nav class="navbar">
-          <a href="/">
-            <h1>Endi Suwandi <span>- Full stack web developer</span></h1>
-          </a>
-          <ul class="navigation">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/projects">Projects</a></li>
-          </ul>
-        </nav>
+  <body class="bg-slate-900 text-slate-300 font-sans">
+    <!-- Header -->
+    <header class="bg-slate-900 border-b border-slate-800 py-6">
+      <div
+        class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center"
+      >
+        <a href="/" class="text-center md:text-left">
+          <h1 class="text-2xl font-bold text-white">
+            Endi Suwandi
+            <span class="text-sm font-normal block md:inline"
+              >- Full Stack Web Developer</span
+            >
+          </h1>
+        </a>
+        <ul
+          class="flex flex-col md:flex-row gap-4 md:gap-8 mt-4 md:mt-0 text-base"
+        >
+          <li><a href="/" class="hover:text-slate-400">Home</a></li>
+          <li><a href="/about" class="hover:text-slate-400">About</a></li>
+          <li><a href="/projects" class="hover:text-slate-400">Projects</a></li>
+        </ul>
       </div>
     </header>
 
-    <!-- Main Content -->
-    <main>
-      <div class="container">
-        <section class="hero">
-          <div class="image">
-            <img
-              src="./assets/endisuwandi.jpg"
-              class="photo"
-              alt="Foto profil Endi Suwandi"
-            />
-          </div>
-          <div class="content">
-            <h2>Build Real Solutions Through Coding 🚀</h2>
-            <p>
-              Hello! I’m Endi Suwandi, a Fullstack Web Developer from the
-              Sumedang District, Indonesia.
-            </p>
-            <p>
-              I specialize in web development from frontend to backend, focusing
-              on building digital solutions that are functional, efficient, and
-              sustainable.
-            </p>
-            <p>
-              I believe technology is not just a tool, but a bridge to create
-              real impact. With a systematic approach, I build web applications
-              that don’t just work, they’re relevant, scalable, and
-              user-friendly. Collaboration, technical discussions, and knowledge
-              sharing are core parts of my journey as a developer.
-            </p>
-            <p>
-              If you have an idea, a vision, or simply want to talk tech, I’m
-              always open to connect.
-            </p>
-          </div>
-        </section>
-
-        <section class="connect">
-          <h2>Sama-sama di dunia koding? Jangan ragu untuk connect!</h2>
-          <p class="connect-subtitle">
-            Mari lanjutkan di Instagram atau LinkedIn atau Telegram.
+    <!-- Hero Section -->
+    <main class="py-16 px-4">
+      <section class="text-center">
+        <img
+          src="./assets/endisuwandi.jpg"
+          alt="Foto profil Endi Suwandi"
+          class="w-36 h-36 mx-auto rounded-full mb-6"
+        />
+        <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">
+          Build Real Solutions Through Coding 🚀
+        </h2>
+        <div class="max-w-3xl mx-auto text-slate-400 space-y-4 text-base">
+          <p>
+            Hello! I’m Endi Suwandi, a Fullstack Web Developer from the Sumedang
+            District, Indonesia.
           </p>
-          <div class="social-links">
-            <a
-              href="https://github.com/endisuwandi05"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Kunjungi profil GitHub Endi Suwandi"
-            >
-              <img src="./assets/github-logo.svg" alt="GitHub" />
-            </a>
-            <a
-              href="https://t.me/endisuwandi"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Hubungi Endi Suwandi di Telegram"
-            >
-              <img src="./assets/telegram-logo.svg" alt="Telegram" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/endi-suwandi-b622a327a/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Kunjungi profil LinkedIn Endi Suwandi"
-            >
-              <img src="./assets/linkedIn-logo.svg" alt="LinkedIn" />
-            </a>
-          </div>
-          <div class="tech-logos">
-            <img src="./assets/logo tech.svg" alt="Technology logos" />
-          </div>
-        </section>
-      </div>
+          <p>
+            I specialize in web development from frontend to backend, focusing
+            on building digital solutions that are functional, efficient, and
+            sustainable.
+          </p>
+          <p>
+            I believe technology is not just a tool, but a bridge to create real
+            impact. With a systematic approach, I build web applications that
+            don’t just work, they’re relevant, scalable, and user-friendly.
+          </p>
+          <p>
+            Collaboration, technical discussions, and knowledge sharing are core
+            parts of my journey as a developer.
+          </p>
+          <p>
+            If you have an idea, a vision, or simply want to talk tech, I’m
+            always open to connect.
+          </p>
+        </div>
+      </section>
+
+      <!-- Connect Section -->
+      <!-- Connect Section -->
+      <section
+        class="bg-slate-800 rounded-xl px-6 py-10 text-center mt-20 mx-auto max-w-4xl"
+      >
+        <h2 class="text-xl md:text-2xl font-bold text-white">
+          Also in the coding world? Don’t hesitate to connect!
+        </h2>
+        <p class="text-slate-400 mt-2 max-w-xl mx-auto">
+          Feel free to connect with me on GitHub, Telegram, or LinkedIn.
+        </p>
+
+        <!-- Sosial Media -->
+        <div class="flex justify-center gap-4 mt-6 flex-wrap">
+          <a
+            href="https://github.com/endisuwandi05"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <img src="./assets/github-logo.svg" alt="GitHub" />
+          </a>
+
+          <a href="https://t.me/endisuwandi" target="_blank">
+            <img src="./assets/telegram-logo.svg" alt="Telegram" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/endi-suwandi-b622a327a/"
+            target="_blank"
+          >
+            <img src="./assets/linkedIn-logo.svg" alt="LinkedIn" />
+          </a>
+        </div>
+
+        <!-- Teknologi -->
+        <div
+          class="bg-slate-900 mt-10 rounded-lg p-6 flex justify-center flex-wrap gap-6"
+        >
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+            class="transform hover:scale-110 transition"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="HTML5"
+              class="w-10 h-10"
+            />
+          </a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            target="_blank"
+            class="transform hover:scale-110 transition"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="CSS3"
+              class="w-10 h-10"
+            />
+          </a>
+          <a
+            href="https://tailwindcss.com"
+            target="_blank"
+            class="transform hover:scale-110 transition"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+              alt="Tailwind"
+              class="w-10 h-10"
+            />
+          </a>
+          <a
+            href="https://getbootstrap.com"
+            target="_blank"
+            class="transform hover:scale-110 transition"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+              alt="Bootstrap"
+              class="w-10 h-10"
+            />
+          </a>
+          <a
+            href="https://vitejs.dev"
+            target="_blank"
+            class="transform hover:scale-110 transition"
+          >
+            <img
+              src="https://vitejs.dev/logo.svg"
+              alt="Vite"
+              class="w-10 h-10"
+            />
+          </a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+            class="transform hover:scale-110 transition"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+              class="w-10 h-10"
+            />
+          </a>
+          <a
+            href="https://reactjs.org"
+            target="_blank"
+            class="transform hover:scale-110 transition"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React"
+              class="w-10 h-10"
+            />
+          </a>
+          <a
+            href="https://docs.nestjs.com/"
+            target="_blank"
+            class="transform hover:scale-110 transition"
+          >
+            <img
+              src="https://nestjs.com/img/logo-small.svg"
+              alt="NestJS"
+              class="w-10 h-10"
+            />
+          </a>
+        </div>
+      </section>
     </main>
 
-    <!-- Footer: Juga membentang penuh, dengan container di dalamnya -->
-    <footer>
-      <div class="container">
-        <p>&copy; 2025 Endi Suwandi</p>
-      </div>
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-500 text-center py-6 mt-16">
+      <p>&copy; 2025 Endi Suwandi</p>
     </footer>
   </body>
 </html>
